@@ -39,7 +39,7 @@ CSongEditor::CSongEditor()
 
   //Monospace font
   QFont font("Monospace",10);
-  font.setStyleHint(QFont::Monospace, QFont::PreferAntialias);
+  font.setStyleHint(QFont::TypeWriter, QFont::PreferAntialias);
   setFont(font);
 
   CHighlighter *highlighter = new CHighlighter(document());
